@@ -380,4 +380,58 @@ footer .input-group-text {
 }
 
 /* product card end  */
+
+/* special product  */
+
+.special-product-card {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+/* .special-product-card span.badge{
+  background-color: #bf4800;
+} */
+/* special product end here */
+
+
+/* famous card */
+
+.famous-card img {
+  border-radius: 20px;
+}
+
+.famous-card .famous-contant {
+  top: 5%;
+  left: 5%;
+}
+
+.famous-contant h5 {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  color: darkblue;
+  margin-bottom: 7px;
+
+}
+
+.famous-contant h6 {
+  font-size: 28px;
+  line-height: 38px;
+  font-weight: 500;
+  color: darkblue;
+
+}
+
+.famous-contant p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 100;
+  color: darkblue;
+}
+
+
+
+/* famous card end here  */
+
 /* home page end  */

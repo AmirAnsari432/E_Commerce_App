@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Marquee from "react-fast-marquee";
 import BlogCard from "../component/BlogCard";
 import ProductCard from "../component/ProductCard";
+import SpecialProduct from "../component/SpecialProduct";
 
 const Home = () => {
   return (
@@ -143,76 +144,167 @@ const Home = () => {
                     <h6>Cameras</h6>
                     <p>10 Items </p>
                   </div>
-                  <img src="images/camera.jpg" />
+                  <img src="images/camera.jpg" alt="camera" />
                 </div>
                 <div className="d-flex align-items-center">
                   <div>
                     <h6>Music&Gaming</h6>
                     <p>10 Items </p>
                   </div>
-                  <img src="images/camera.jpg" />
+                  <img src="images/camera.jpg" alt="camera" />
                 </div>
                 <div className="d-flex align-items-center">
                   <div>
                     <h6>Smart Tv </h6>
                     <p>10 Items </p>
                   </div>
-                  <img src="images/tv.jpg" />
+                  <img src="images/tv.jpg" alt="smarttv" />
                 </div>
                 <div className="d-flex align-items-center">
                   <div>
                     <h6>Headphones</h6>
                     <p>10 Items </p>
                   </div>
-                  <img src="images/headphone.jpg" />
+                  <img src="images/headphone.jpg" alt="headphones" />
                 </div>
                 <div className="d-flex align-items-center">
                   <div>
                     <h6>Cameras</h6>
                     <p>10 Items </p>
                   </div>
-                  <img src="images/camera.jpg" />
+                  <img src="images/camera.jpg" alt="camera" />
                 </div>
                 <div className="d-flex align-items-center">
                   <div>
                     <h6>Music&Gaming</h6>
                     <p>10 Items </p>
                   </div>
-                  <img src="images/camera.jpg" />
+                  <img src="images/camera.jpg" alt="camera" />
                 </div>
                 <div className="d-flex align-items-center">
                   <div>
                     <h6>Smart Tv </h6>
                     <p>10 Items </p>
                   </div>
-                  <img src="images/tv.jpg" />
+                  <img src="images/tv.jpg" alt="smarttv" />
                 </div>
                 <div className="d-flex   align-items-center">
                   <div>
                     <h6>Headphones</h6>
                     <p>10 Items </p>
                   </div>
-                  <img src="images/headphone.jpg" />
+                  <img src="images/headphone.jpg" alt="headphones" />
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section className="featured-wrapper p-5 home-wrapper-2">
+      <section className="featured-wrapper py-5 home-wrapper-2">
         <div className="container-xxl">
           <div className="row">
             <div className="col-12">
               <h3 className="section-heading">Featured Collection</h3>
             </div>
-           <ProductCard />
-           <ProductCard />
-           <ProductCard />
-           <ProductCard />
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
           </div>
         </div>
       </section>
-      
+      <section className="famous-wrapper py-5 home-wrapper-2">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img
+                  src="images/watch.jpg"
+                  className="img-fluid"
+                  alt="famous"
+                />
+                <div className="famous-contant position-absolute">
+                  <h5>Big Screen</h5>
+                  <h6>Smart Watch Sereies-8</h6>
+                  <p>From $399 $16.62/mo . for 24 mo.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img
+                  src="images/watch.jpg"
+                  className="img-fluid"
+                  alt="famous"
+                />
+                <div className="famous-contant position-absolute">
+                  <h5>Big Screen</h5>
+                  <h6>Smart Watch Sereies-8</h6>
+                  <p>From $399 $16.62/mo . for 24 mo.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img
+                  src="images/watch.jpg"
+                  className="img-fluid"
+                  alt="famous"
+                />
+                <div className="famous-contant position-absolute">
+                  <h5>Big Screen</h5>
+                  <h6>Smart Watch Sereies-8</h6>
+                  <p>From $399 $16.62/mo . for 24 mo.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img
+                  src="images/watch.jpg"
+                  className="img-fluid"
+                  alt="famous"
+                />
+                <div className="famous-contant position-absolute">
+                  <h5>Big Screen</h5>
+                  <h6>Smart Watch Sereies-8</h6>
+                  <p>From $399 $16.62/mo . for 24 mo.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="special-wrapper p-5 home-wrapper-2">
+        <div className="conatiner-xxl">
+          <div className="row">
+            <div className="col-12">
+              <h3 className="section-heading">Special Product</h3>
+            </div>
+          </div>
+          <div className="row">
+            <SpecialProduct />
+            <SpecialProduct />
+            <SpecialProduct />
+            <SpecialProduct />
+          </div>
+        </div>
+      </section>
+      <section className="popular-wrapper p-5 home-wrapper-2">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <h3 className="section-heading">Our Popular Products</h3>
+            </div>
+            <div className="row">
+              <ProductCard />
+              <ProductCard />
+              <ProductCard />
+              <ProductCard />
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="marquee-wrapper py-5">
         <div className="container-xxl">
           <div className="row">
