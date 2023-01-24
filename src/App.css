@@ -15,6 +15,7 @@
   --color-77777: #777777;
   --color-131921: #131921;
   --color-1c1c1b: #1c1c1b;
+
 }
 
 .section-heading {
@@ -274,6 +275,8 @@ footer .input-group-text {
   border-right: 1px solid var(--color-ededed);
 }
 
+/* home page end  */
+
 
 /* blog card :start */
 .blog-card {
@@ -430,8 +433,88 @@ footer .input-group-text {
   color: darkblue;
 }
 
-
-
 /* famous card end here  */
 
-/* home page end  */
+
+/* our store  */
+
+.filter-card {
+  background-color: white;
+  border: 10px;
+  padding: 10px 15px;
+}
+
+.filter-title {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+  margin-bottom: 20px;
+}
+
+.filter-card ul,
+.filter-card .form-check-input {
+  list-style-type: none;
+  font-size: 13px;
+  line-height: 30px;
+  color: var(--color-77777);
+  cursor: pointer;
+}
+
+.sab-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+  margin-bottom: 15px;
+}
+
+.filter-card .form-check-input :focus {
+  box-sizing: none;
+  border-color: inherit;
+}
+
+.filter-card .form-check-input :checked {
+  background-color: var(--color-febd69);
+
+}
+
+.colors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.colors li {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.random-product h5 {
+  font-size: 14px;
+  font-weight: 400;
+
+
+}
+
+.random-product :first-child {
+  border-bottom: var(--color-ededed);
+}
+
+.filter-sort-grid {
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.GRID img.gr-img {
+  height: 34px;
+  width: 34px;
+  background-color: #f2f2f2;
+  padding: 8px;
+  border-radius: 3px;
+  cursor: pointer;
+
+
+}
