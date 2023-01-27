@@ -566,21 +566,24 @@ footer .input-group-text {
 
 }
 
-.campare-product-card .cross {
+.campare-product-card .cross,
+.wishlist-card .cross {
   top: 15px;
   right: 15px;
   width: 20px;
   cursor: pointer;
 }
 
-.campare-product-detail h5.title {
+.campare-product-detail h5.title,
+.wishlist-card h5.title {
   font-size: 15px;
   line-height: 22px;
   font-weight: 500;
   color: var(--color-1c1c1b);
 }
 
-.campare-product-detail h6.price {
+.campare-product-detail h6.price,
+.wishlist-card h5.title {
   font-weight: 400;
   font-size: 15px;
   list-style: 22px;

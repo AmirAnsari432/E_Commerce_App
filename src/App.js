@@ -7,6 +7,7 @@ import Contact from "./pages/Contact";
 import OurStore from "./pages/OurStore";
 import Blog from "./pages/Blog";
 import CampareProduct from "./pages/CampareProduct";
+import Wishlist from "./pages/Wishlist";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="store" element={<OurStore />} />
             <Route path="blogs" element={<Blog />} />
             <Route path="campare-product" element={<CampareProduct />} />
+            <Route path="wishlist" element={<Wishlist />} />
           </Route>
         </Routes>
       </BrowserRouter>
