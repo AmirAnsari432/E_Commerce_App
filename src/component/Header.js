@@ -49,7 +49,10 @@ const Header = () => {
             <div className="col-5">
               <div className="header-upper-links d-flex align-items-center justify-content-between">
                 <div>
-                  <Link className="d-flex align-items-center gap-10 text-white">
+                  <Link
+                    to="/campare-product"
+                    className="d-flex align-items-center gap-10 text-white"
+                  >
                     <img
                       className="bg-white"
                       src="images/compare.png"
@@ -61,7 +64,10 @@ const Header = () => {
                   </Link>
                 </div>
                 <div>
-                  <Link className="d-flex align-items-center gap-10 text-white">
+                  <Link
+                    to="/wishlist"
+                    className="d-flex align-items-center gap-10 text-white"
+                  >
                     <img
                       className="bg-white"
                       src="images/love.png"
@@ -75,7 +81,10 @@ const Header = () => {
                   </Link>
                 </div>
                 <div>
-                  <Link className="d-flex align-items-center gap-10 text-white">
+                  <Link
+                    to="login"
+                    className="d-flex align-items-center gap-10 text-white"
+                  >
                     <img
                       className="bg-white"
                       src="images/user.png"
@@ -87,7 +96,10 @@ const Header = () => {
                   </Link>
                 </div>
                 <div>
-                  <Link className="d-flex align-items-center gap-10 text-white">
+                  <Link
+                    to="cart"
+                    className="d-flex align-items-center gap-10 text-white"
+                  >
                     <img
                       className="bg-white"
                       src="images/cart.png"

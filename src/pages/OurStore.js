@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import ReactStars from "react-rating-stars-component";
 import BreadCrum from "../component/BreadCrum";
+import Color from "../component/Color";
 import ProductCard from "../component/ProductCard";
 
 const OurStore = () => {
@@ -73,6 +74,9 @@ const OurStore = () => {
                 </div>
                 <div className="sub-title">
                   <h5>Color</h5>
+                  <div>
+                    <Color />
+                  </div>
                   <div className="d-flex flex-wrap">
                     <ul className="colors">
                       <li></li>

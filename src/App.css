@@ -479,6 +479,7 @@ footer .input-group-text {
 }
 
 .colors {
+  box-sizing: none;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -555,4 +556,40 @@ footer .input-group-text {
 .gr-6 .product-image img {
   margin: auto;
   display: flex;
+}
+
+
+.campare-product-card {
+  padding: 20px 15px;
+  background-color: white;
+  border-radius: 10px;
+
+}
+
+.campare-product-card .cross {
+  top: 15px;
+  right: 15px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.campare-product-detail h5.title {
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 500;
+  color: var(--color-1c1c1b);
+}
+
+.campare-product-detail h6.price {
+  font-weight: 400;
+  font-size: 15px;
+  list-style: 22px;
+}
+
+.campare-product-card .product-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+  border-top: 1px solid var(--color-f5f5f7);
 }
