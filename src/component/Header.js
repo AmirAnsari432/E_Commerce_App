@@ -154,7 +154,7 @@ const Header = () => {
                     <NavLink className="text-white" to="/blogs">
                       Blogs
                     </NavLink>
-                    <NavLink className="text-white" to="/conatct">
+                    <NavLink className="text-white" to="/contact">
                       Contact
                     </NavLink>
                   </div>
