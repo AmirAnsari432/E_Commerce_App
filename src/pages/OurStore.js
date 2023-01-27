@@ -5,7 +5,7 @@ import ProductCard from "../component/ProductCard";
 
 const OurStore = () => {
   const [grid, setGrid] = useState(4);
-  
+
   return (
     <>
       <BreadCrum title="Our Store" />
@@ -247,7 +247,7 @@ const OurStore = () => {
                         }}
                         src="images/gr-1.png"
                         className="d-block img-fluid gr-img"
-                        alt="gr1"
+                        alt="gr-3"
                       />
                       <img
                         onClick={() => {
@@ -255,7 +255,7 @@ const OurStore = () => {
                         }}
                         src="images/gr-2.png"
                         className="d-block img-fluid gr-img"
-                        alt="gr2"
+                        alt="gr-4"
                       />
                       <img
                         onClick={() => {
@@ -263,7 +263,7 @@ const OurStore = () => {
                         }}
                         src="images/gr-3.png"
                         className="d-block img-fluid gr-img"
-                        alt="gr3"
+                        alt="gr-6"
                       />
                       <img
                         onClick={() => {
@@ -271,14 +271,14 @@ const OurStore = () => {
                         }}
                         src="images/gr-4.png"
                         className="d-block img-fluid gr-img"
-                        alt="gr4"
+                        alt="gr-12"
                       />
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="product-list pb-5">
-                <div className="d-flex flex-wrap">
+              <div className="product-list py-5">
+                <div className="d-flex gap-10 flex-wrap">
                   <ProductCard grid={grid} />
                 </div>
               </div>
