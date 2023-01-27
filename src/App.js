@@ -8,6 +8,8 @@ import OurStore from "./pages/OurStore";
 import Blog from "./pages/Blog";
 import CampareProduct from "./pages/CampareProduct";
 import Wishlist from "./pages/Wishlist";
+import Login from "./pages/Login";
+import ForgotPass from "./pages/ForgotPass";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
             <Route path="blogs" element={<Blog />} />
             <Route path="campare-product" element={<CampareProduct />} />
             <Route path="wishlist" element={<Wishlist />} />
+            <Route path="login" element={<Login />} />
+            <Route path="forgotPassword" element={<ForgotPass />} />
           </Route>
         </Routes>
       </BrowserRouter>
