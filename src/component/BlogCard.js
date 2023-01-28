@@ -13,7 +13,7 @@ const BlogCard = () => {
         <p className="desc">
           rhis andnada kabkab dalknndkab alkndlkasn lakkkndalkn
         </p>
-        <Link to="/" className="button">
+        <Link to="/blog/:id" className="button">
           Read more
         </Link>
       </div>
