@@ -32,7 +32,9 @@ const Login = () => {
                   </div>
                   <div className="d-flex justify-content-center gap-15 align-items-center">
                     <button className="button border-0">Login</button>
-                    <Link className="button signup text-white">SignUp</Link>
+                    <Link to="/signup" className="button signup text-white">
+                      SignUp
+                    </Link>
                   </div>
                 </form>
               </div>

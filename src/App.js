@@ -10,6 +10,7 @@ import CampareProduct from "./pages/CampareProduct";
 import Wishlist from "./pages/Wishlist";
 import Login from "./pages/Login";
 import ForgotPass from "./pages/ForgotPass";
+import SignUp from "./pages/SignUp";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             <Route path="wishlist" element={<Wishlist />} />
             <Route path="login" element={<Login />} />
             <Route path="forgotPassword" element={<ForgotPass />} />
+            <Route path="signup" element={<SignUp />} />
           </Route>
         </Routes>
       </BrowserRouter>

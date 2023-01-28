@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import BreadCrum from "../component/BreadCrum";
 
 const ForgotPass = () => {
@@ -13,7 +14,12 @@ const ForgotPass = () => {
               <p> We will send you an email to reset your password</p>
               <input />
               <div>
-                <button className="button my-2 py-2">Submit</button>
+                <button className="button mt-3 justify-content-center flex-column align-items-center my-2 py-2 flex-wrap">
+                  Submit
+                </button>
+                <div>
+                  <Link to="/login">Cancel</Link>
+                </div>
               </div>
             </div>
           </div>
