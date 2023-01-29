@@ -695,4 +695,76 @@ footer .input-group-text {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+
+.main-product-image {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.main-product-image>div {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.main-product-image img {
+  width: 100% !important;
+  height: 500px !important;
+  object-fit: cover;
+}
+
+.other-product-image {
+  background-color: white;
+  padding: 20px;
+}
+
+.other-product-image>div {
+  width: 48%;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+
+.main-product-details {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.border-bottom h3 {
+  color: var(--color-1c1c1b);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.border-bottom {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.main-product-details p.price {
+
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
+}
+
+.main-product-details a.review-btn {
+  font-size: 13px;
+  color: var(--color-777777);
+}
+
+.product-heading {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+.product-data {
+  font-size: 13px;
+  margin-bottom: 0px;
+
+}
+
 /* main product page end  */

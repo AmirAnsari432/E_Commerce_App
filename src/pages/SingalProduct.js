@@ -3,8 +3,16 @@ import { useState } from "react";
 import BreadCrum from "../component/BreadCrum";
 import ProductCard from "../component/ProductCard";
 import ReactStars from "react-rating-stars-component";
+import ReactImageZoom from "react-image-zoom";
+import Color from "../component/Color";
 
 const SingalProduct = () => {
+  const props = {
+    width: 400,
+    height: 250,
+    zoomWidth: 500,
+    img: "https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg",
+  };
   const [orderProduct, setOrderProduct] = useState(0);
   return (
     <>
@@ -12,8 +20,120 @@ const SingalProduct = () => {
       <div className="main-product-wrapper home-wrapper-2 py-5 ">
         <div className="container-xxl">
           <div className="row">
-            <div className="col-6"></div>
-            <div className="col-6"></div>
+            <div className="col-6">
+              <div className="main-product-image">
+                <div>
+                  <ReactImageZoom {...props} />
+                </div>
+              </div>
+              <div className="other-product-image d-flex flex-wrap gap-10">
+                <div>
+                  <img
+                    src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg"
+                    className="img-fluid"
+                  />
+                </div>
+                <div>
+                  <img
+                    src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg"
+                    className="img-fluid"
+                  />
+                </div>
+                <div>
+                  <img
+                    src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg"
+                    className="img-fluid"
+                  />
+                </div>
+                <div>
+                  <img
+                    src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg"
+                    className="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="col-6">
+              <div className="main-product-details">
+                <div className="border-bottom">
+                  <h3 className="title">
+                    Kids Headphones bulk 10 pack multi colores for Students
+                  </h3>
+                </div>
+                <div className="border-bottom py-3">
+                  <p className="price">$100</p>
+                </div>
+
+                <div className="d-flex align-items-center ">
+                  <ReactStars
+                    count={5}
+                    value={4}
+                    edit={false}
+                    size={24}
+                    activeColor="#ffd700"
+                  />
+                  <p className="mb-0">(2 Review)</p>
+                </div>
+                <a href="#review" className="review-btn">
+                  Write a Review
+                </a>
+                <div className="border-bottom py-3">
+                  <div className="d-flex gap-10 align-items-center py-2">
+                    <h3 className="product-heading">Type :</h3>
+                    <p className="product-data">Watch</p>
+                  </div>
+                  <div className="d-flex gap-10 align-items-center py-2">
+                    <h3 className="product-heading">Brands :</h3>
+                    <p className="product-data">Sonata</p>
+                  </div>
+                  <div className="d-flex gap-10 align-items-center py-2">
+                    <h3 className="product-heading">Category :</h3>
+                    <p className="product-data">Hand Watch</p>
+                  </div>
+                  <div className="d-flex gap-10 align-items-center py-2">
+                    <h3 className="product-heading">Tags :</h3>
+                    <p className="product-data">watch headphones tv camera </p>
+                  </div>
+                  <div className="d-flex gap-10 align-items-center py-2">
+                    <h3 className="product-heading">Availablity :</h3>
+                    <p className="product-data">In Stock</p>
+                  </div>
+                  <div className="d-flex gap-10 flex-column py-2">
+                    <h3 className="product-heading">Size :</h3>
+                    <div className="d-flex flex-wrap gap-15">
+                      <span className="badge border text-dark border-secondry">
+                        S
+                      </span>
+                      <span className="badge border text-dark border-secondry">
+                        M
+                      </span>
+                      <span className="badge border text-dark border-secondry">
+                        L
+                      </span>
+                      <span className="badge border text-dark border-secondry">
+                        xl
+                      </span>
+                    </div>
+                  </div>
+                  <div className="d-flex gap-10 flex-column py-2">
+                    <h3 className="product-heading">Color :</h3>
+                    <Color />
+                  </div>
+                  <div className="d-flex gap-10 flex-row py-2">
+                    <h3 className="product-heading">Quantity :</h3>
+                    <div className="">
+                      <input
+                        type="number"
+                        name=""
+                        max={10}
+                        min={0}
+                        style={{ width: "50px" }}
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -46,7 +166,9 @@ const SingalProduct = () => {
             <div className="col-12">
               <div className="review-inner-wrapper">
                 <div className="review-head justify-content-between align-items-end">
-                  <h4 className="mb-3">Review</h4>
+                  <h4 id="review" className="mb-3">
+                    Review
+                  </h4>
                   <div>
                     <h4 className="mb-2">Customer Reviews</h4>
                     <div className="d-flex align-items-center gap-10">
