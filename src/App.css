@@ -630,7 +630,7 @@ footer .input-group-text {
 
 .auth-card .signup {
   text-decoration: white;
-  background-color: var(--color-febd69); 
+  background-color: var(--color-febd69);
   color: #131921;
 
 }
@@ -642,3 +642,57 @@ footer .input-group-text {
 }
 
 /* auth card  end  */
+
+
+/* policy page  */
+
+.policy {
+  background-color: white;
+  padding: 30px;
+}
+
+/* policy page end */
+
+/* main product page  */
+.review.inner-wrapper {
+  background-color: white;
+  padding: 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.review.head {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+
+.review.head h4 {
+  font-size: 18px;
+  color: var(--color-1c1c1b);
+}
+
+.review.head p {
+  font-size: 14px;
+  color: var(--color-777777);
+}
+
+.review-form h4 {
+  font-size: 25px;
+  color: var(--color-777777);
+}
+
+.review p {
+  font-size: 14px;
+  color: var(--color-777777);
+}
+
+.review-form {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+
+.review :not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* main product page end  */

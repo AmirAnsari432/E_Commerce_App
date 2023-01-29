@@ -11,8 +11,13 @@ import Wishlist from "./pages/Wishlist";
 import Login from "./pages/Login";
 import ForgotPass from "./pages/ForgotPass";
 import SignUp from "./pages/SignUp";
-import ResetPassword from "./pages/ResetPassword";
 import SingleBlog from "./pages/SingleBlog";
+import ResetPassword from "./pages/ResetPassword";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import RefundPolicy from "./pages/RefundPolicy";
+import ShippingPolicy from "./pages/ShippingPolicy";
+import TermAndCondition from "./pages/TermAndCondition";
+import SingalProduct from "./pages/SingalProduct";
 
 function App() {
   return (
@@ -23,7 +28,8 @@ function App() {
             <Route index element={<Home />} />
             <Route path="about" element={<About />} />
             <Route path="contact" element={<Contact />} />
-            <Route path="store" element={<OurStore />} />
+            <Route path="product" element={<OurStore />} />
+            <Route path="Product/:id" element={<SingalProduct />} />
             <Route path="blogs" element={<Blog />} />
             <Route path="blog/:id" element={<SingleBlog />} />
             <Route path="campare-product" element={<CampareProduct />} />
@@ -32,6 +38,10 @@ function App() {
             <Route path="forgotPassword" element={<ForgotPass />} />
             <Route path="signup" element={<SignUp />} />
             <Route path="resetpass" element={<ResetPassword />} />
+            <Route path="privacy" element={<PrivacyPolicy />} />
+            <Route path="refund" element={<RefundPolicy />} />
+            <Route path="shipping" element={<ShippingPolicy />} />
+            <Route path="term&condi" element={<TermAndCondition />} />
           </Route>
         </Routes>
       </BrowserRouter>
