@@ -777,7 +777,28 @@ footer .input-group-text {
   color: var(--color-777777);
   background-color: var(--color-febd69);
   border-radius: 5px;
-  
+
+}
+
+.cart-header h4 {
+  color: var(--color-777777);
+  font-size: 15px;
+}
+
+.cart-col-1 {
+  width: 40%;
+}
+
+.cart-col-2 {
+  width: 10%;
+}
+
+.cart-col-3 {
+  width: 15%;
+}
+
+.cart-col-4 {
+  width: 15%;
 }
 
 
