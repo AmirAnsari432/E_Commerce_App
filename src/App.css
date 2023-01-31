@@ -767,4 +767,20 @@ footer .input-group-text {
 
 }
 
+.main-product-details a {
+  font-size: 14px;
+  color: var(--color-777777);
+}
+
+.main-product-details .copylink {
+  font-size: 15px;
+  color: var(--color-777777);
+  background-color: var(--color-febd69);
+  border-radius: 5px;
+  
+}
+
+
+
+
 /* main product page end  */

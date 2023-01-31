@@ -1,6 +1,11 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import { BsSearch } from "react-icons/bs";
+import compare from "../images/compare.png";
+import love from "../images/love.png";
+import user from "../images/user.png";
+import cart from "../images/cart.png";
+import menu from "../images/menu.png";
 
 const Header = () => {
   return (
@@ -53,11 +58,7 @@ const Header = () => {
                     to="/campare-product"
                     className="d-flex align-items-center gap-10 text-white"
                   >
-                    <img
-                      className="bg-white"
-                      src="images/compare.png"
-                      alt="compare"
-                    />
+                    <img className="bg-white" src={compare} alt="compare" />
                     <p className="mb-0">
                       Compare <br /> Product
                     </p>
@@ -68,11 +69,7 @@ const Header = () => {
                     to="/wishlist"
                     className="d-flex align-items-center gap-10 text-white"
                   >
-                    <img
-                      className="bg-white"
-                      src="images/love.png"
-                      alt="wishlist"
-                    />
+                    <img className="bg-white" src={love} alt="wishlist" />
                     <p>
                       <p className="mb-0">
                         Favourite <br /> wishlist
@@ -85,11 +82,7 @@ const Header = () => {
                     to="login"
                     className="d-flex align-items-center gap-10 text-white"
                   >
-                    <img
-                      className="bg-white"
-                      src="images/user.png"
-                      alt="user"
-                    />
+                    <img className="bg-white" src={user} alt="user" />
                     <p className="mb-0">
                       Login <br /> My Account
                     </p>
@@ -100,11 +93,7 @@ const Header = () => {
                     to="cart"
                     className="d-flex align-items-center gap-10 text-white"
                   >
-                    <img
-                      className="bg-white"
-                      src="images/cart.png"
-                      alt="cart"
-                    />
+                    <img className="bg-white" src={cart} alt="cart" />
                     <div className="d-flex flex-column">
                       <span className="badge bg0-white gap-15">0</span>
                       <p className="mb-0">$ 500</p>
@@ -130,7 +119,7 @@ const Header = () => {
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
                     >
-                      <img src="images/menu.png" />
+                      <img src={menu} />
                       <span>Shop Categories</span>
                     </button>
                     <ul

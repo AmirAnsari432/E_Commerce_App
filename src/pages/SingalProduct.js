@@ -5,8 +5,19 @@ import ProductCard from "../component/ProductCard";
 import ReactStars from "react-rating-stars-component";
 import ReactImageZoom from "react-image-zoom";
 import Color from "../component/Color";
+import { AiOutlineHeart } from "react-icons/ai";
+import { BiGitCompare } from "react-icons/bi";
 
 const SingalProduct = () => {
+  const copyToClipboard = () => {
+    const textField = document.createElement("textarea");
+    textField.innerText =
+      "https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg";
+    document.body.appendChild(textField);
+    textField.select();
+    document.execCommand("copy");
+    textField.remove();
+  };
   const props = {
     width: 400,
     height: 250,
@@ -119,7 +130,7 @@ const SingalProduct = () => {
                     <h3 className="product-heading">Color :</h3>
                     <Color />
                   </div>
-                  <div className="d-flex gap-10 flex-row py-2">
+                  <div className="d-flex gap-10 flex-row my-3 align-items-center">
                     <h3 className="product-heading">Quantity :</h3>
                     <div className="">
                       <input
@@ -129,6 +140,53 @@ const SingalProduct = () => {
                         min={0}
                         style={{ width: "50px" }}
                       />
+                    </div>
+                    <div className="align-items-center d-flex ms-5 gap-30">
+                      <button type="submit" className="button border-0">
+                        Add to Cart
+                      </button>
+                      <button type="submit" className="button">
+                        Buy it Now
+                      </button>
+                    </div>
+                  </div>
+                  <div className="d-flex gap-10 align-items-center">
+                    <div>
+                      <a href="">
+                        {" "}
+                        <BiGitCompare className="fs-5 me-2" />
+                        Add to campare{" "}
+                      </a>
+                    </div>
+                    <div>
+                      <a href="">
+                        {" "}
+                        <AiOutlineHeart className="fs-5 me-2" />
+                        Add to wishlist
+                      </a>
+                    </div>
+                  </div>
+                  <div className="d-flex align-items-center">
+                    <div className="d-flex gap-10 flex-column my-3">
+                      <div>
+                        <h3 className="product-heading my-2">
+                          Shipping & Refund :
+                        </h3>
+                        <p className="product-data">
+                          Free shipping and return all availble product <br />
+                          we ship all us domestic order in <br />
+                          5-7 working days
+                        </p>
+                      </div>
+                      <div className="d-flex align-items-center gap-15">
+                        <h3 className="product-heading">Product Link :</h3>
+                        <button
+                          className="copylink"
+                          onClick={() => copyToClipboard()}
+                        >
+                          Copy
+                        </button>
+                      </div>
                     </div>
                   </div>
                 </div>
