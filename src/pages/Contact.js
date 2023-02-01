@@ -21,7 +21,7 @@ const Contact = () => {
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
-            <div className="col-12 d-flex justify-content-between">
+            <div className="col-12 d-flex py-5  justify-content-between">
               <div>
                 <h3 className="contact-title mb-4">Conatct us</h3>
                 <form action="" className="d-flex flex-column gap-15">

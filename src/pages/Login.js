@@ -16,7 +16,7 @@ const Login = () => {
                   <div>
                     <input
                       type="email"
-                      clasaName="form-control mt-1"
+                      clasaName="form-control text-type mt-1"
                       placeholder="Email"
                     />
                   </div>
@@ -28,7 +28,7 @@ const Login = () => {
                     />
                   </div>
                   <div>
-                    <Link to="/forgotPassword">Forget Password</Link>
+                    <Link className="text-dark" to="/forgotPassword">Forget Password</Link>
                   </div>
                   <div className="d-flex justify-content-center gap-15 align-items-center">
                     <button className="button border-0">Login</button>

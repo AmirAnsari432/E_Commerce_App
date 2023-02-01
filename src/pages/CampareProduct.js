@@ -1,6 +1,8 @@
 import React from "react";
 import BreadCrum from "../component/BreadCrum";
 import Color from "../component/Color";
+import cross from "../images/cross.png";
+import watch from "../images/watch.jpg";
 
 const CampareProduct = () => {
   return (
@@ -13,12 +15,12 @@ const CampareProduct = () => {
             <div className="col-3">
               <div className="campare-product-card posotion-relative">
                 <img
-                  src="images/cross.png"
+                  src={cross}
                   alt="cross"
                   className="positon-absolute cross img-fluid"
                 />
                 <div className="product-card-image">
-                  <img src="images/watch.jpg" alt="watch" />
+                  <img src={watch} alt="watch" />
                 </div>
                 <div className="campare-product-detail ">
                   <h5 className="title">
@@ -54,12 +56,12 @@ const CampareProduct = () => {
             <div className="col-3">
               <div className="campare-product-card posotion-relative">
                 <img
-                  src="images/cross.png"
+                  src={cross}
                   alt="cross"
                   className="positon-absolute cross img-fluid"
                 />
                 <div className="product-card-image">
-                  <img src="images/watch.jpg" alt="watch" />
+                  <img src={watch} alt="watch" />
                 </div>
                 <div className="campare-product-detail ">
                   <h5 className="title">

@@ -90,7 +90,7 @@ const Header = () => {
                 </div>
                 <div>
                   <Link
-                    to="ca rt"
+                    to="cart"
                     className="d-flex align-items-center gap-10 text-white"
                   >
                     <img className="bg-white" src={cart} alt="cart" />

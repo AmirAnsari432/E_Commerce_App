@@ -31,7 +31,7 @@ import brand8 from "../images/brand-08.png";
 const Home = () => {
   return (
     <>
-      <Container class1="home-wrapper-1 py-5">
+      <Container class1="home-wrapper-2 py-5">
         <div className="row">
           <div className="col-6">
             <div className="main-banner position-relative">
@@ -110,11 +110,10 @@ const Home = () => {
           </div>
         </div>
       </Container>
-
-      <Container className="home-wrapper-2 py-5">
+      <Container class1="home-wrapper-2 py-5">
         <div className="row">
-          <div className="col-12">
-            <div className="servies d-flex align-items-center justify-content-between ">
+          <div className="col-12 ">
+            <div className="servies d-flex align-items-center justify-content-between">
               <div className="d-flex align-items-center gap-15">
                 <img src={service1} alt="services" />
                 <div>
@@ -154,7 +153,7 @@ const Home = () => {
           </div>
         </div>
       </Container>
-      <Container className="home-wrapper-2 py-5">
+      <Container class1="home-wrapper-2 py-5">
         <div className="row">
           <div className="col-12">
             <div className="categories d-flex flex-wrap justify-content-between align-items-center">
@@ -218,9 +217,9 @@ const Home = () => {
           </div>
         </div>
       </Container>
-      <Container className="featured-wrapper py-5 home-wrapper-2">
+      <Container class1="featured-wrapper py-5 home-wrapper-2">
         <div className="row">
-          <div className="col-12">
+          <div className="col-12 ">
             <h3 className="section-heading">Featured Collection</h3>
           </div>
           <ProductCard />
@@ -229,9 +228,10 @@ const Home = () => {
           <ProductCard />
         </div>
       </Container>
-      <Container className="famous-wrapper py-5 home-wrapper-2">
+      <Container class1="famous-wrapper py-5 home-wrapper-2">
         <div className="row">
           <div className="col-3">
+            {/* <h3 className="">Famous Product</h3> */}
             <div className="famous-card position-relative">
               <img src={watch} className="img-fluid" alt="famous" />
               <div className="famous-contant position-absolute">
@@ -273,10 +273,10 @@ const Home = () => {
           </div>
         </div>
       </Container>
-      <Container className="special-wrapper py-5 home-wrapper-2">
+      <Container class1="special-wrapper py-5 home-wrapper-2">
         <div className="row">
           <div className="col-12">
-            <h3 className="section-heading">Special Product</h3>
+            <h3 className="section-heading my-1">Special Product</h3>
           </div>
         </div>
         <div className="row">
@@ -286,7 +286,7 @@ const Home = () => {
           <SpecialProduct />
         </div>
       </Container>
-      <Container className="popular-wrapper py-5 home-wrapper-2">
+      <Container class1="popular-wrapper py-5 home-wrapper-2">
         <div className="row">
           <div className="col-12">
             <h3 className="section-heading">Our Popular Products</h3>
@@ -299,7 +299,7 @@ const Home = () => {
           </div>
         </div>
       </Container>
-      <Container className="marquee-wrapper py-5">
+      <Container class1="marquee-wrapper py-5">
         <div className="row">
           <div className="col-12">
             <div className="marquee-inner-wrapper card-wrapper">
@@ -333,7 +333,7 @@ const Home = () => {
           </div>
         </div>
       </Container>
-      <Container className="blog-wrapper py-5 home-wrapper-2">
+      <Container class1="blog-wrapper py-5 home-wrapper-2">
         <div className="row">
           <div className="col-12">
             <h3 className="section-heading">Our Latest Blogs</h3>

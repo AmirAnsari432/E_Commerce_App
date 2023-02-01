@@ -10,16 +10,15 @@ const Blog = () => {
         <div className="container-xxl">
           <div className="row">
             <div className="col-3">
-              <div className="fliter-card bg-dark text-white p-2  mb-3">
-                <h3 className="filter-title text-light">Found By Category</h3>
-                <div className="">
-                  <ul className="ps-0">
-                    <li>Watch </li>
-                    <li>Tv</li>
-                    <li>Camera</li>
-                    <li>Laptop</li>
-                  </ul>
-                </div>
+              <div className="fliter-card p-2  mb-3">
+                <h3 className="filter-title">Found By Category</h3>
+
+                <ul className="ps-0 side-bar">
+                  <li>Watch </li>
+                  <li>Tv</li>
+                  <li>Camera</li>
+                  <li>Laptop</li>
+                </ul>
               </div>
             </div>
             <div className="col-9">

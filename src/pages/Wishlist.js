@@ -1,5 +1,7 @@
 import React from "react";
 import BreadCrum from "../component/BreadCrum";
+import watch from "../images/watch.jpg";
+import cross from "../images/cross.png";
 
 const Wishlist = () => {
   return (
@@ -11,16 +13,12 @@ const Wishlist = () => {
             <div className="col-3">
               <div className="wishlist-card position-relative">
                 <img
-                  src="images/cross.png"
+                 src={cross}
                   alt="cross"
                   className="position-absolute img-fluid cross"
                 />
                 <div className="wishlist-card-image">
-                  <img
-                    src="images/watch.jpg"
-                    alt="watch"
-                    className="img-fluid w-100"
-                  />
+                  <img src={watch} alt="watch" className="img-fluid w-100" />
                 </div>
                 <div>
                   <h5 className="title py-3">
@@ -29,19 +27,16 @@ const Wishlist = () => {
                   <h6 className="price text-danger">$100</h6>
                 </div>
               </div>
-            </div><div className="col-3">
+            </div>
+            <div className="col-3">
               <div className="wishlist-card position-relative">
                 <img
-                  src="images/cross.png"
+                 src={cross}
                   alt="cross"
                   className="position-absolute img-fluid cross"
                 />
                 <div className="wishlist-card-image">
-                  <img
-                    src="images/watch.jpg"
-                    alt="watch"
-                    className="img-fluid w-100"
-                  />
+                  <img src={watch} alt="watch" className="img-fluid w-100" />
                 </div>
                 <div>
                   <h5 className="title py-3">
@@ -50,19 +45,16 @@ const Wishlist = () => {
                   <h6 className="price text-danger">$100</h6>
                 </div>
               </div>
-            </div><div className="col-3">
+            </div>
+            <div className="col-3">
               <div className="wishlist-card position-relative">
                 <img
-                  src="images/cross.png"
+                 src={cross}
                   alt="cross"
                   className="position-absolute img-fluid cross"
                 />
                 <div className="wishlist-card-image">
-                  <img
-                    src="images/watch.jpg"
-                    alt="watch"
-                    className="img-fluid w-100"
-                  />
+                  <img src={watch} alt="watch" className="img-fluid w-100" />
                 </div>
                 <div>
                   <h5 className="title py-3">
