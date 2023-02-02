@@ -3,11 +3,13 @@ import { Link } from "react-router-dom";
 import { BiArrowBack } from "react-icons/bi";
 import watch from "../images/watch.jpg";
 import Container from "../component/Container";
+import BreadCrum from "../component/BreadCrum";
 
 const Checkout = () => {
   return (
     <>
-      <Container class1="checkout-wrapper home-wrapper-2">
+      <BreadCrum title="Checkout Page" />
+      <Container class1="checkout-wrapper py-5 home-wrapper-2">
         <div className="row ">
           <div className="col-7">
             <div className="checkout-left-data">

@@ -5,7 +5,7 @@ import Container from "./Container";
 const BreadCrum = (props) => {
   const title = props.title;
   return (
-    <Container class1="breadcrum mb-0">
+    <Container class1="breadcrum py-3">
     
         <div className="row">
           <div className="col-12">

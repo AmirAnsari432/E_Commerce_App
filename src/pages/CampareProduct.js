@@ -10,7 +10,7 @@ const CampareProduct = () => {
     <>
       <BreadCrum title="Campare Product " />
 
-      <Container class1="campare-product-wrapper home-wrapper-2">
+      <Container class1="campare-product-wrapper py-5 home-wrapper-2">
         <div className="row">
           <div className="col-3">
             <div className="campare-product-card posotion-relative">
