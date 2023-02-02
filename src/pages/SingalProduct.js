@@ -40,24 +40,28 @@ const SingalProduct = () => {
               <div className="other-product-image d-flex flex-wrap gap-10">
                 <div>
                   <img
+                    alt="watch"
                     src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg"
                     className="img-fluid"
                   />
                 </div>
                 <div>
                   <img
+                    alt="watch"
                     src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg"
                     className="img-fluid"
                   />
                 </div>
                 <div>
                   <img
+                    alt="watch"
                     src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg"
                     className="img-fluid"
                   />
                 </div>
                 <div>
                   <img
+                    alt="watch"
                     src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg"
                     className="img-fluid"
                   />
@@ -152,14 +156,14 @@ const SingalProduct = () => {
                   </div>
                   <div className="d-flex gap-10 align-items-center">
                     <div>
-                      <a href="">
+                      <a href="/">
                         {" "}
                         <BiGitCompare className="fs-5 me-2" />
                         Add to campare{" "}
                       </a>
                     </div>
                     <div>
-                      <a href="">
+                      <a href="/">
                         {" "}
                         <AiOutlineHeart className="fs-5 me-2" />
                         Add to wishlist

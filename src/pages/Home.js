@@ -9,12 +9,8 @@ import catbanner1 from "../images/catbanner-01.jpg";
 import catbanner2 from "../images/catbanner-02.jpg";
 import catbanner3 from "../images/catbanner-03.jpg";
 import catbanner4 from "../images/catbanner-04.jpg";
-import service1 from "../images/service.png";
 import Container from "../component/Container";
-import service2 from "../images/service-02.png";
-import service3 from "../images/service-03.png";
-import service4 from "../images/service-04.png";
-import service5 from "../images/service-05.png";
+
 import camera from "../images/camera.jpg";
 import watch from "../images/watch.jpg";
 import tv from "../images/tv.jpg";
@@ -27,6 +23,12 @@ import brand5 from "../images/brand-05.png";
 import brand6 from "../images/brand-06.png";
 import brand7 from "../images/brand-07.png";
 import brand8 from "../images/brand-08.png";
+// import { Service } from "../utils/Data";
+import service from "../images/service.png";
+import service1 from "../images/service-02.png";
+import service2 from "../images/service-03.png";
+import service3 from "../images/service-04.png";
+import service4 from "../images/service-05.png";
 
 const Home = () => {
   return (
@@ -115,40 +117,49 @@ const Home = () => {
           <div className="col-12 ">
             <div className="servies d-flex align-items-center justify-content-between">
               <div className="d-flex align-items-center gap-15">
-                <img src={service1} alt="services" />
+                <img src={service} alt="service" />
                 <div>
                   <h6>Free Shipping</h6>
-                  <p className="mb-0">From all orders over $5</p>
+                  <p className="mb-0"> From All Order over $5</p>
                 </div>
               </div>
               <div className="d-flex align-items-center gap-15">
-                <img src={service2} alt="services" />
+                <img src={service1} alt="service" />
                 <div>
-                  <h6>Daily Surprise Offer</h6>
-                  <p className="mb-0">Save upto 25%</p>
+                  <h6>Free Shipping</h6>
+                  <p className="mb-0"> From All Order over $5</p>
                 </div>
               </div>
               <div className="d-flex align-items-center gap-15">
-                <img src={service3} alt="services" />
+                <img src={service2} alt="service" />
                 <div>
-                  <h6>Support 24/7</h6>
-                  <p className="mb-0">Shop with Expert </p>
+                  <h6>Free Shipping</h6>
+                  <p className="mb-0"> From All Order over $5</p>
                 </div>
               </div>
               <div className="d-flex align-items-center gap-15">
-                <img src={service4} alt="services" />
+                <img src={service3} alt="service" />
                 <div>
-                  <h6>Affordable Prices</h6>
-                  <p className="mb-0">Get Factory Default Price</p>
+                  <h6>Free Shipping</h6>
+                  <p className="mb-0"> From All Order over $5</p>
                 </div>
               </div>
               <div className="d-flex align-items-center gap-15">
-                <img src={service5} alt="services" />
+                <img src={service4} alt="service" />
                 <div>
-                  <h6>Secure Payment </h6>
-                  <p className="mb-0">100 % Protect Payment </p>
+                  <h6>Free Shipping</h6>
+                  <p className="mb-0"> From All Order over $5</p>
                 </div>
               </div>
+              {/* {Service?.map((i, j) => {
+                return (
+                  <div className="d-flex align-items-center gap-15" key={j}>
+                    <img src={i.image} alt="services" />
+                    <h6>{i.title}</h6>
+                    <p>{i.tagline}</p>
+                  </div>
+                );
+              })} */}
             </div>
           </div>
         </div>

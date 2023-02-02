@@ -19,7 +19,7 @@ const Cart = () => {
             <div className="d-flex justify-content-between  py-3 cart-header">
               <div className="cart-col-1 gap-15 d-flex align-items-center">
                 <div className="w-25">
-                  <img className="img-fluid" src={watch} alt="product image" />
+                  <img className="img-fluid" src={watch} alt="productimage" />
                 </div>
                 <div>
                   <p>heaphome wathdca caklsc alfnc laksnc alksn</p>

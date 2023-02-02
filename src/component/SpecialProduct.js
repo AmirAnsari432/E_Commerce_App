@@ -9,7 +9,7 @@ const SpecialProduct = () => {
       <div className="special-product-card">
         <div className="d-flex justify-content-between">
           <div>
-            <img src={watch} className="img-fluid" />
+            <img src={watch} alt="watch" className="img-fluid" />
           </div>
           <div className="special-product-content">
             <h5 className="brand">havels</h5>

@@ -119,7 +119,7 @@ const Header = () => {
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
                     >
-                      <img src={menu} />
+                      <image src={menu} />
                       <span>Shop Categories</span>
                     </button>
                     <ul
