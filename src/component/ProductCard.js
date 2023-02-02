@@ -5,9 +5,7 @@ import watch from "../images/watch.jpg";
 import compare from "../images/campare.png";
 import view from "../images/view.png";
 import addcart from "../images/addcart.png";
-
 import watch2 from "../images/watch-02.webp";
-
 import wishlist from "../images/wishlist.png";
 const ProductCard = (props) => {
   const grid = props.grid;
@@ -15,7 +13,7 @@ const ProductCard = (props) => {
   return (
     <>
       <div
-        className={`${location.pathname == "/store" ? `col${grid}` : "col-3"}`}
+        className={`${location.pathname === "/store" ? `col${grid}` : "col-3"}`}
       >
         <Link to="/product/:id" className="product-card position-relative">
           <div className="wishlist-icon position-absolute">
@@ -57,7 +55,7 @@ const ProductCard = (props) => {
         </Link>
       </div>
       <div
-        className={`${location.pathname == "/store" ? `col${grid}` : "col-3"}`}
+        className={`${location.pathname === "/store" ? `col${grid}` : "col-3"}`}
       >
         <div className="product-card position-relative">
           <div className="wishlist-icon position-absolute">
