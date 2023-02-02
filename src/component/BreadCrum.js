@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Container from "./Container";
 
 const BreadCrum = (props) => {
   const title = props.title;
   return (
-    <div className="breadcrum py-4 mb-0">
-      <div className="container-xxl">
+    <Container class1="breadcrum mb-0">
+    
         <div className="row">
           <div className="col-12">
             <p className="text-center mb-0">
@@ -16,8 +17,8 @@ const BreadCrum = (props) => {
             </p>
           </div>
         </div>
-      </div>
-    </div>
+      
+    </Container>
   );
 };
 

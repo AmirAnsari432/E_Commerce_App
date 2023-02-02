@@ -1,12 +1,13 @@
 import React from "react";
 import BlogCard from "../component/BlogCard";
 import BreadCrum from "../component/BreadCrum";
+import Container from "../component/Container";
 
 const Blog = () => {
   return (
     <>
       <BreadCrum title="Blog" />
-      <div className="blog-wrapper home-wrapper-2 py-5">
+      <Container class1="blog-wrapper home-wrapper-2 py-5">
         <div className="container-xxl">
           <div className="row">
             <div className="col-3">
@@ -39,7 +40,7 @@ const Blog = () => {
             </div>
           </div>
         </div>
-      </div>
+      </Container>
     </>
   );
 };

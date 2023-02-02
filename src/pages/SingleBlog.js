@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import BreadCrum from "../component/BreadCrum";
+import Container from "../component/Container";
 
 const SingleBlog = () => {
   return (
     <>
       <BreadCrum title="Dynamic Blog Name " />
-      <div className="blog-wrapper home-wrapper-2 py-5">
-        <div className="container-xxl">
+      <Container className="blog-wrapper home-wrapper-2 py-5">
+       
           <div className="row">
             <div className="col-12 align-items-center justify-content-center">
               <div className="single-blod-card">
@@ -35,8 +36,8 @@ const SingleBlog = () => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
+     
+      </Container>
     </>
   );
 };

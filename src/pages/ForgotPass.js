@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import BreadCrum from "../component/BreadCrum";
+import Container from "../component/Container";
 
 const ForgotPass = () => {
   return (
     <>
       <BreadCrum title="forgot password" />
-      <div className="login-wrapper py-5 home-wrapper-2">
+      <Container class1="login-wrapper py-5 home-wrapper-2">
         <div className="row">
           <div className="col-12">
             <div className="auth-card text-center">
@@ -24,7 +25,7 @@ const ForgotPass = () => {
             </div>
           </div>
         </div>
-      </div>
+      </Container>
     </>
   );
 };
